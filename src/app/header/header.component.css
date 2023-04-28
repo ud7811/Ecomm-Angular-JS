@@ -1,0 +1,53 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav h1{
+    color: blue;
+    font-size: 35px;
+    margin: 0;
+}
+.nav ul{
+    margin: 0;
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0;
+}
+.nav li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav li a {
+    text-decoration: none;
+}
+.nav .nav-search input {
+    color: blue;
+    border: 1px solid blue;
+    height: 30px;
+    border-radius: 10px;
+}
+.nav .nav-search button {
+    margin-left: 10px;
+    height: 30px;
+    width: 97px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    border: 1px;
+}
+h1 a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav ul li a{
+    cursor: pointer;
+    color: blueviolet;;
+}
+.suggested-result {
+    position: absolute;
+    display: list-item !important;
+    z-index: 10;
+    background: white;
+    border: 1px solid grey;
+}

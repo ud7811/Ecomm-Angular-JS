@@ -1,0 +1,14 @@
+.seller-auth .signup h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 85px;
+}
+.seller-auth .login h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 85px;
+}
+.seller-auth .login .isError{
+    text-align: center;
+    color: red;
+}

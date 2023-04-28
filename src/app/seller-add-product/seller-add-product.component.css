@@ -1,0 +1,8 @@
+.add-product h1{
+    text-align: center;
+}
+.add-product p{
+    text-align: center;
+    font-size: medium;
+    color: green;
+}
