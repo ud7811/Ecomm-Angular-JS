@@ -7,7 +7,10 @@
     <div class="details"><h1>{{productData.name}}</h1>
     <h3>Price: {{productData.price}}</h3>
     <div>
-       Color: <h5> {{productData.color}}</h5>
+       Color: <h5 [style.backgroundColor] = "productData.color" class="product-color"></h5>
+       <!-- Color: <h5 [ngStyle]="{'backgroundColor': productData.color}" class="product-color"></h5> -->
+
+      
     </div>
     <h6>Category: {{productData.category}}</h6>
     <h6>Description: {{productData.description}}</h6>
